@@ -60,7 +60,7 @@ const SaveYourSpot: React.FC = () => {
             href="#"
             className="px-6 py-2 bg-red-500 text-white border rounded-full shadow-lg hover:scale-105 active:bg-red-600 flex items-center gap-2 transition-transform duration-500"
           >
-            Get Involved
+            Register Now
             <span className="w-6 md:w-8">
               <Image 
                 src="/arrow-up-right.png" 
