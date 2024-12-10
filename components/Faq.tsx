@@ -66,7 +66,7 @@ const FAQSection: React.FC = () => {
                   }`}
                 >
                   <Image 
-                  src="/chevron down.png" 
+                  src="/chevron-down.png" 
                   alt="" 
                   className="transition-transform duration-300" 
                   width={24} 

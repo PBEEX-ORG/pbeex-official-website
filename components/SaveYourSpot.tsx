@@ -63,7 +63,7 @@ const SaveYourSpot: React.FC = () => {
             Get Involved
             <span className="w-6 md:w-8">
               <Image 
-                src="/arrow up-right.png" 
+                src="/arrow-up-right.png" 
                 alt="Arrow Icon" 
                 width={50} 
                 height={50} 

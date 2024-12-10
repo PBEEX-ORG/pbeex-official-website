@@ -40,7 +40,7 @@ const WhatIsPbeex: React.FC = () => {
                 Get Involved
                 <span className="w-8 items-center">
                 <Image 
-                  src="/arrow up-right.png" 
+                  src="/arrow-up-right.png" 
                   alt="Arrow Icon" 
                   className="transition-transform duration-300" 
                   width={50} 
