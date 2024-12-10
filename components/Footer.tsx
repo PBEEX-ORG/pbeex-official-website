@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 
 const Footer: React.FC = () => {
   return (
@@ -10,26 +12,59 @@ const Footer: React.FC = () => {
             {/* Left Section: Logo and Social Media */}
             <div className="space-y-6">
                 <div className="flex items-center space-x-2 w-52">
-                    <img
-                    src="/horizontal_white.png" // Replace with actual logo path
-                    alt="PBEEX Logo"
-                    />
+                <Image
+                src="/horizontal_white.png" 
+                alt="PBEEX Logo"
+                width={200}
+                height={100}
+                priority 
+                />
                 </div>
                 <div className="flex space-x-6">
                     <a href="https://facebook.com" className="hover:scale-110 transition-transform">
-                        <img src="/facebook-icon.png" alt="Facebook" className="h-6 w-6" />
+                        <Image 
+                        src="/facebook-icon.png" 
+                        alt="" 
+                        className="transition-transform duration-300" 
+                        width={28} 
+                        height={28} 
+                        /> 
                     </a>
                     <a href="https://twitter.com" className="hover:scale-110 transition-transform">
-                        <img src="/twitter-icon.png" alt="X (formerly Twitter)" className="h-6 w-6" />
+                    <Image 
+                        src="/twitter-icon.png" 
+                        alt="" 
+                        className="transition-transform duration-300" 
+                        width={28} 
+                        height={28} 
+                        />                     
                     </a>
                     <a href="https://instagram.com" className="hover:scale-110 transition-transform">
-                        <img src="/instagram-icon.png" alt="Instagram" className="h-6 w-6" />
+                    <Image 
+                        src="/instagram-icon.png" 
+                        alt="" 
+                        className="transition-transform duration-300" 
+                        width={28} 
+                        height={28} 
+                        />                     
                     </a>
                     <a href="https://linkedin.com" className="hover:scale-110 transition-transform">
-                        <img src="/linkedin-icon.png" alt="LinkedIn" className="h-6 w-6" />
+                    <Image 
+                        src="/linkedin-icon.png" 
+                        alt="" 
+                        className="transition-transform duration-300" 
+                        width={28} 
+                        height={28} 
+                        />                     
                     </a>
                     <a href="https://whatsapp.com" className="hover:scale-110 transition-transform">
-                        <img src="/whatsapp-icon.png" alt="WhatsApp" className="h-6 w-6" />
+                    <Image 
+                        src="/whatsapp-icon.png" 
+                        alt="" 
+                        className="transition-transform duration-300" 
+                        width={28} 
+                        height={28} 
+                        />                     
                     </a>
                 </div>
                 <p className="text-sm">
@@ -83,11 +118,14 @@ const Footer: React.FC = () => {
                 PBEEX is happening on the <br /> 11th January, 2024.
                 </p>
             </div>
-                <img
-                    src="/icon_colored.png" 
-                    alt="PBEEEX Icon"
-                    className="h-48 w-48 opacity-40"
-                />
+            <Image
+            src="/icon_colored.png"
+            alt="PBEEEX Icon"
+            width={192} 
+            height={192} 
+            className="opacity-40"
+            priority 
+            />
             </div>
       </div>
 
