@@ -29,11 +29,13 @@ const Hero = () => {
         <div className="relative w-full md:w-3/5 lg:w-2/5 flex flex-col items-center justify-start space-y-6 text-white z-10 ml-auto lg:pb-16">
             {/* Bulb Icon */}
             <div className="absolute top-0 -left-24 md:-left-32 hover:scale-100 animate-pulse">
-                <img
-                src="/Bulb-icon.svg"
-                alt="Bulb Icon"
-                className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48"
-                />
+            <Image
+            src="/Bulb-icon.svg"
+            alt="Bulb Icon"
+            className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48"
+            width={100} 
+            height={100} 
+            />
             </div>
 
             {/* Heading */}
@@ -69,11 +71,13 @@ const Hero = () => {
 
             {/* Vector Icon */}
             <div className="absolute -bottom-10 -right-10 lg:bottom-0">
-                <img
-                    src="/vector-icon.svg" 
-                    alt="Vector Icon"
-                    className="w-12 h-12 md:w-16 md:h-16"
-                />
+            <Image
+            src="/vector-icon.svg" 
+            alt="Vector Icon"
+            className="w-12 h-12 md:w-16 md:h-16"
+            width={64} 
+            height={64} 
+            />
             </div>
         </div>
     </section>

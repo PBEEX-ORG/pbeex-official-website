@@ -7,7 +7,7 @@ const WhatIsPbeex: React.FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col justify-center">
         {/* Title */}
         <h1 className="text-brandred text-6xl lg:text-7xl font-bold text-left">
-          WHAT'S PBEEX?
+          WHAT&apos;S PBEEX?
         </h1>
 
         {/* Content */}

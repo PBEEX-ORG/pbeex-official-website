@@ -14,7 +14,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What kind of projects are expected?",
-    answer: "We’re looking for visionary, cutting-edge projects that exceed the usual scope of engineering within Nigeria. With considerable support available, we encourage associations to aim high and propose bold, impactful solutions. Your projects should challenge norms, inspire curiosity, and leave people impressed with their scale and ingenuity.",
+    answer: "We're looking for visionary, cutting-edge projects that exceed the usual scope of engineering within Nigeria. With considerable support available, we encourage associations to aim high and propose bold, impactful solutions. Your projects should challenge norms, inspire curiosity, and leave people impressed with their scale and ingenuity.",
   },
   {
     question:

@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 const Slideshow = () => {
-  // Use your six images
   const images = [
     "/gallery-image-7.jpg",
     "/gallery-image-8.jpg",
@@ -30,8 +29,8 @@ const Slideshow = () => {
   // Automatically change the image every 4 seconds
   useEffect(() => {
     const intervalId = setInterval(nextImage, 4000);
-    return () => clearInterval(intervalId); // Cleanup on unmount
-  }, []);
+    return () => clearInterval(intervalId); 
+  }, [nextImage]); 
 
   return (
     <section className="relative w-full py-12 px-6 overflow-hidden">
