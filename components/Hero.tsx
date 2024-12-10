@@ -55,7 +55,7 @@ const Hero = () => {
                         href="#"
                         className="px-6 py-2 bg-red-500 text-white border rounded-full shadow-lg hover:scale-105 hover:gap-5 active:bg-red-600 flex items-center gap-2 transition-transform duration-500"
                     >
-                        Get Involved
+                        Register Now
                         <span className="w-8 items-center">
                         <Image 
                         src="/arrow-up-right.png" 
