@@ -2,7 +2,8 @@
 
 
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const navLinkModify = "text-gray-950 hover:bg-gray-200 hover:text-brandred px-4 py-2 rounded-full transition-transform duration-400"
 
@@ -92,7 +93,14 @@ const Navbar = () => {
             >
                 Get Involved
                 <span className="w-8 items-center">
-                    <img src="/arrow up-right.png" alt="Arrow Icon" className="transition-transform duration-300" />
+                <Image 
+                  src="/arrow up-right.png" 
+                  alt="Arrow Icon" 
+                  className="transition-transform duration-300" 
+                  width={24} 
+                  height={24} 
+                  priority 
+                />                     
                 </span>
             </a>
         </div>

@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <section className="relative flex items-center h-screen">
         {/* Background Image */}
         <div className="absolute min-w-3/5 inset-0 -z-10">
-            <img
+        <Image
             src="/Frame-3.svg"
             alt="Engineer in construction gear"
             className="w-70 h-full object-cover"
-            />
+            width={1000}
+            height={500} 
+            priority 
+        />
         </div>
 
         {/* Gradient Overlay */}

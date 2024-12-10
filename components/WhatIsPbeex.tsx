@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const WhatIsPbeex: React.FC = () => {
   return (
@@ -38,7 +39,14 @@ const WhatIsPbeex: React.FC = () => {
             >
                 Get Involved
                 <span className="w-8 items-center">
-                    <img src="/arrow up-right.png" alt="Arrow Icon" className="transition-transform duration-300" />
+                <Image 
+                  src="/arrow up-right.png" 
+                  alt="Arrow Icon" 
+                  className="transition-transform duration-300" 
+                  width={24} 
+                  height={24} 
+                  priority 
+                />                
                 </span>
             </a>
         </div>
@@ -46,10 +54,22 @@ const WhatIsPbeex: React.FC = () => {
         {/* Decorative Icons */}
         <div className="hidden md:flex justify-between mt-12">
           <div className="absolute right-20 top-10 w-24 h-24 opacity-30 animate-spin-slow">
-            <img src="/icon_black.png" alt="Decorative icon" />
+          <Image 
+            src="/icon_black.png" 
+            alt="Decorative icon" 
+            width={200} 
+            height={200} 
+            priority 
+          />              
           </div>
           <div className="absolute bottom-10 left-10 w-24 h-24 opacity-30 animate-spin-slow">
-            <img src="/icon_black.png" alt="Decorative icon" />
+          <Image 
+            src="/icon_black.png" 
+            alt="Decorative icon" 
+            width={200} 
+            height={200} 
+            priority 
+          />            
           </div>
         </div>
       </div>

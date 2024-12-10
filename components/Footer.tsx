@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 
 const Footer: React.FC = () => {
   return (
@@ -10,10 +12,13 @@ const Footer: React.FC = () => {
             {/* Left Section: Logo and Social Media */}
             <div className="space-y-6">
                 <div className="flex items-center space-x-2 w-52">
-                    <img
-                    src="/horizontal_white.png" // Replace with actual logo path
-                    alt="PBEEX Logo"
-                    />
+                <Image
+                src="/horizontal_white.png" 
+                alt="PBEEX Logo"
+                width={200}
+                height={100}
+                priority 
+                />
                 </div>
                 <div className="flex space-x-6">
                     <a href="https://facebook.com" className="hover:scale-110 transition-transform">
@@ -83,11 +88,14 @@ const Footer: React.FC = () => {
                 PBEEX is happening on the <br /> 11th January, 2024.
                 </p>
             </div>
-                <img
-                    src="/icon_colored.png" 
-                    alt="PBEEEX Icon"
-                    className="h-48 w-48 opacity-40"
-                />
+            <Image
+            src="/icon_colored.png"
+            alt="PBEEEX Icon"
+            width={192} // Replace with the width that matches `w-48`
+            height={192} // Replace with the height that matches `h-48`
+            className="opacity-40"
+            priority // Optional if this icon is important for immediate display
+            />
             </div>
       </div>
 

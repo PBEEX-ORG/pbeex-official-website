@@ -44,7 +44,7 @@ const FAQSection: React.FC = () => {
     <section className="py-12 px-6 lg:px-20 bg-white">
       <div className="max-w-4xl mx-auto">
         {/* Title */}
-        <h2 className="text-center text-2xl lg:text-3xl font-bold text-brandred mb-8">
+        <h2 className="text-center text-4xl md:text-4xl font-bold text-brandred mb-8">
           FREQUENTLY ASKED QUESTIONS
         </h2>
         <div className="space-y-6">
