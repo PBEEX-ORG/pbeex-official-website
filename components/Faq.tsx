@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Image from "next/image";
 
 type FAQItem = {
   question: string;
@@ -64,7 +65,13 @@ const FAQSection: React.FC = () => {
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 >
-                  &#9662;
+                  <Image 
+                  src="/chevron down.png" 
+                  alt="" 
+                  className="transition-transform duration-300" 
+                  width={24} 
+                  height={24} 
+                  /> 
                 </span>
               </button>
               {/* Answer */}

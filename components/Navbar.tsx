@@ -23,7 +23,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const Resize = () => {
-      if (window.innerWidth >= 765) {
+      if (window.innerWidth >= 1024) {
         closeMenu();
       }
     };
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex space-x-6 px-1 py-1 font-medium bg-slate-100 rounded-full border border-slate-900">
+        <nav className="hidden lg:flex space-x-6 px-1 py-1 font-medium bg-slate-100 rounded-full border border-slate-900">
           <a href="#home" className={navLinkModify}>Home</a>
           <a href="#projects" className={navLinkModify}>Projects</a>
           <a href="#partners" className={navLinkModify}>Partners</a>
@@ -61,7 +61,7 @@ const Navbar = () => {
 
         {/* Hamburger Menu Button */}
         <button
-          className="md:hidden text-gray-950 focus:outline-none"
+          className="lg:hidden text-gray-950 focus:outline-none"
           onClick={toggle}
         >
           <svg
@@ -113,7 +113,7 @@ const Navbar = () => {
         )}
 
         {/* Get Involved Button for Desktop */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <a
             href="#"
             className="px-6 py-2 bg-red-500 text-white border rounded-full shadow-lg hover:scale-105 active:bg-red-600 flex items-center gap-2 transition-transform duration-500"
