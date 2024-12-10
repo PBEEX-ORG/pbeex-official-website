@@ -11,7 +11,7 @@ const WhatToExpect: React.FC = () => {
         <div className="relative flex-shrink-0 w-full md:w-1/2">
           {/* <div className="absolute inset-0 bg-brandred rounded-xl -z-10 translate-x-3 translate-y-3"></div> */}
           <img
-            src="/Frame-14.png"
+            src="/gallery-image-1.jpg"
             alt="Students Collaborating"
             className="rounded-xl hover:scale-105 transition-transform duration-300 ease-out"
           />

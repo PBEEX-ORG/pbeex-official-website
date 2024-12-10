@@ -24,7 +24,7 @@ const Hero = () => {
         {/* Content Section */}
         <div className="relative w-2/5 flex flex-col items-center justify-center space-y-6 text-white z-10 ml-auto">
             {/* Bulb Icon */}
-            <div className="absolute top-0 -left-12 hover:scale-100 animate-pulse">
+            <div className="absolute top-0 -left-16 hover:scale-100 animate-pulse">
                 <img
                 src="/Bulb-icon.svg"
                 alt="Bulb Icon"
