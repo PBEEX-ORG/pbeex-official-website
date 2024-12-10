@@ -43,8 +43,8 @@ const WhatIsPbeex: React.FC = () => {
                   src="/arrow up-right.png" 
                   alt="Arrow Icon" 
                   className="transition-transform duration-300" 
-                  width={24} 
-                  height={24} 
+                  width={50} 
+                  height={50} 
                   priority 
                 />                
                 </span>

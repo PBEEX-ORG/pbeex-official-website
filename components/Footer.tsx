@@ -91,10 +91,10 @@ const Footer: React.FC = () => {
             <Image
             src="/icon_colored.png"
             alt="PBEEEX Icon"
-            width={192} // Replace with the width that matches `w-48`
-            height={192} // Replace with the height that matches `h-48`
+            width={192} 
+            height={192} 
             className="opacity-40"
-            priority // Optional if this icon is important for immediate display
+            priority 
             />
             </div>
       </div>

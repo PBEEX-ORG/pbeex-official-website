@@ -54,7 +54,14 @@ const Hero = () => {
                     >
                         Get Involved
                         <span className="w-8 items-center">
-                            <img src="/arrow up-right.png" alt="Arrow Icon" className="transition-transform duration-300" />
+                        <Image 
+                        src="/arrow up-right.png" 
+                        alt="Arrow Icon" 
+                        className="transition-transform duration-300" 
+                        width={50} 
+                        height={50} 
+                        priority 
+                        />  
                         </span>
                     </a>
                 </div>
