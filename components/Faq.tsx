@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Image from "next/image";
 
 type FAQItem = {
   question: string;
@@ -13,7 +14,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What kind of projects are expected?",
-    answer: "We’re looking for visionary, cutting-edge projects that exceed the usual scope of engineering within Nigeria. With considerable support available, we encourage associations to aim high and propose bold, impactful solutions. Your projects should challenge norms, inspire curiosity, and leave people impressed with their scale and ingenuity.",
+    answer: "We're looking for visionary, cutting-edge projects that exceed the usual scope of engineering within Nigeria. With considerable support available, we encourage associations to aim high and propose bold, impactful solutions. Your projects should challenge norms, inspire curiosity, and leave people impressed with their scale and ingenuity.",
   },
   {
     question:
@@ -44,7 +45,7 @@ const FAQSection: React.FC = () => {
     <section className="py-12 px-6 lg:px-20 bg-white">
       <div className="max-w-4xl mx-auto">
         {/* Title */}
-        <h2 className="text-center text-2xl lg:text-3xl font-bold text-brandred mb-8">
+        <h2 className="text-center text-4xl md:text-4xl font-bold text-brandred mb-8">
           FREQUENTLY ASKED QUESTIONS
         </h2>
         <div className="space-y-6">
@@ -64,7 +65,13 @@ const FAQSection: React.FC = () => {
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 >
-                  &#9662;
+                  <Image 
+                  src="/chevron-down.png" 
+                  alt="" 
+                  className="transition-transform duration-300" 
+                  width={24} 
+                  height={24} 
+                  /> 
                 </span>
               </button>
               {/* Answer */}

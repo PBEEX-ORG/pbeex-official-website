@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const Slideshow = () => {
   const images = [
-    "/gallery-image-1.jpg",
-    "/gallery-image-2.jpg",
-    "/gallery-image-3.jpg",
-    "/gallery-image-4.jpg",
-    "/gallery-image-5.jpg",
-    "/gallery-image-6.jpg",
+    "/gallery-image-7.jpg",
+    "/gallery-image-8.jpg",
+    "/gallery-image-9.jpg",
+    "/gallery-image-10.jpg",
+    "/gallery-image-12.jpg",
+    "/gallery-image-13.jpg",
   ];
 
   return (

@@ -1,19 +1,24 @@
 import React from "react";
+import Image from "next/image";
 
 const WhatToExpect: React.FC = () => {
   return (
     <section className="py-12 px-6">
-      <h2 className="text-center text-2xl lg:text-3xl font-bold text-brandred mb-8">
+      <h2 className="text-center text-4xl md:text-5xl font-bold text-brandred mb-8">
         WHAT TO EXPECT FROM PBEEX
       </h2>
       <div className="flex flex-col md:flex-row justify-between items-center bg-white md:px-20 gap-10">
         {/* Left Image Section */}
         <div className="relative flex-shrink-0 w-full md:w-1/2">
-          {/* <div className="absolute inset-0 bg-brandred rounded-xl -z-10 translate-x-3 translate-y-3"></div> */}
-          <img
+          <div className="absolute inset-0 bg-brandred rounded-xl -z-10 translate-x-3 translate-y-3"></div>
+          <Image
             src="/gallery-image-1.jpg"
             alt="Students Collaborating"
             className="rounded-xl hover:scale-105 transition-transform duration-300 ease-out"
+            width={500}
+            height={500}
+            priority 
+            style={{ objectFit: 'cover' }}
           />
         </div>
         {/* Right Content Section */}

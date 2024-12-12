@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const PartnersSection = () => {
   return (
@@ -80,10 +81,12 @@ const PartnersSection = () => {
                 key={index}
                 className="flex justify-center items-center bg-white rounded-lg shadow-lg p-4 transition-transform hover:scale-105"
                 >
-                <img
-                    src={src}
-                    alt={`Partner ${index + 1}`}
-                    className="h-20 md:h-24 object-contain"
+                <Image
+                src={src}
+                alt={`Partner ${index + 1}`}
+                className="h-20 md:h-24 object-contain"
+                width={100} 
+                height={80}
                 />
                 </div>
             ))}
