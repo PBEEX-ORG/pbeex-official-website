@@ -54,6 +54,29 @@ const Slideshow = () => {
             />
           </div>
         ))}
+
+        {/* Secound slide */}
+        {[...images, ...images].map((image, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 px-2"
+            style={{
+              flex: "0 0 auto", // Prevent images from shrinking
+              width: "100%", // Full width for smaller screens
+              maxWidth: "400px", // Limit size for larger screens
+            }}
+          >
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              width={400}
+              height={300}
+              layout="responsive" // Responsive scaling
+              objectFit="cover"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        ))}
       </motion.div>
     </section>
   );
