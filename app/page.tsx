@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Slideshow from "@/components/ImageGallery";
 import Navbar from "@/components/Navbar";
-import PartnersSection from "@/components/Partners";
+// import PartnersSection from "@/components/Partners";
 import SaveYourSpot from "@/components/SaveYourSpot";
 import WhatIsPbeex from "@/components/WhatIsPbeex";
 import WhatToExpect from "@/components/WhatToExpect";
@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <Hero/>
-      <PartnersSection/>
+      {/* <PartnersSection/> */}
       <WhatIsPbeex/>
       <WhatToExpect/>
       <Slideshow/>
