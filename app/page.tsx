@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <Hero/>
-      <PartnersSection/>
+      {/* <PartnersSection/> */}
       <WhatIsPbeex/>
       <WhatToExpect/>
       <Slideshow/>
