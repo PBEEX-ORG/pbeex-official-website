@@ -116,18 +116,23 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <a
             href="#"
-            className="px-6 py-2 bg-red-500 text-white border rounded-full shadow-lg hover:scale-105 active:bg-red-600 flex items-center gap-2 transition-transform duration-500"
+            className="px-6 py-2 bg-red-500 text-white border rounded-full shadow-lg hover:scale-105 active:bg-red-600 flex items-center gap-3 transition-transform duration-500"
           >
             Get Involved
             <span className="w-8 items-center">
-              <Image
+              {/* <Image
                 src="/arrow up-right.png"
                 alt="Arrow Icon"
                 className="transition-transform duration-300"
                 width={50}
                 height={50}
                 priority
-              />
+              /> */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+
+
             </span>
           </a>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const PartnersSection = () => {
     return (
@@ -34,44 +34,46 @@ const PartnersSection = () => {
                     </div>
 
                     {/* Countdown Section */}
-                   <div className="flex justify-center lg:justify-end">
-  <div className="bg-gray-100 shadow-lg rounded-lg px-6 py-4 text-gray-800">
-    <h3 className="text-xl font-semibold mb-4">Countdown to PBEEX 2024</h3>
-    <div className="flex space-x-4 justify-center">
-      <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
-        <p className="text-3xl font-bold">25</p>
-        <p className="text-sm">Days</p>
-      </div>
-      <div className="flex items-center justify-center">
-        <span className="text-3xl font-bold">:</span>
-      </div>
-      <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
-        <p className="text-3xl font-bold">04</p>
-        <p className="text-sm">Hours</p>
-      </div>
-      <div className="flex items-center justify-center">
-        <span className="text-3xl font-bold">:</span>
-      </div>
-      <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
-        <p className="text-3xl font-bold">47</p>
-        <p className="text-sm">Mins</p>
-      </div>
-    </div>
-  </div>
-</div>
+                    <div className="flex justify-center lg:justify-end">
+                        <div className="bg-gray-100 shadow-lg rounded-lg px-6 py-4 text-gray-800">
+                            <h3 className="text-xl font-semibold mb-4">Countdown to PBEEX 2024</h3>
+                            <div className="flex space-x-4 justify-center">
+                                <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
+                                    <p className="text-3xl font-bold">25</p>
+                                    <p className="text-sm">Days</p>
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <span className="text-3xl font-bold">:</span>
+                                </div>
+                                <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
+                                    <p className="text-3xl font-bold">04</p>
+                                    <p className="text-sm">Hours</p>
+                                </div>
+                                <div className="flex items-center justify-center">
+                                    <span className="text-3xl font-bold">:</span>
+                                </div>
+                                <div className="text-center border-2 border-gray-300 rounded-md px-3 py-2">
+                                    <p className="text-3xl font-bold">47</p>
+                                    <p className="text-sm">Mins</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
 
             {/* Partners Section */}
-            {/* <div className="bg-[#102539] py-16"> */}
-                {/* <div className="container mx-auto px-6 lg:px-12">
+            {/* <div className="bg-[#102539] py-16">
+                <div className="container mx-auto px-6 lg:px-12">
                     <h3 className="text-center text-4xl md:text-5xl font-bold text-white mb-10">
                         OUR PARTNERS
                     </h3>
                     <p className="text-center text-white text-lg md:text-xl mb-12">
                         We collaborate with leading organizations to drive innovation and growth.
                     </p>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center"> */}
-                        {/* Partner Logos
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+                     
                         {[
                             "/images__1_-removebg-preview.png",
                             "/images__2_-removebg-preview.png",
@@ -80,8 +82,8 @@ const PartnersSection = () => {
                             "/images__5_-removebg-preview.png",
                             "/spe-logo-blue.png",
                             "/images__6_-removebg-preview.png",
-                            "/images-removebg-preview.png", */}
-                        {/* ].map((src, index) => (
+                            "/images-removebg-preview.png",
+                        ].map((src, index) => (
                             <div
                                 key={index}
                                 className="flex justify-center items-center bg-white rounded-lg shadow-lg p-4 transition-transform hover:scale-105"
@@ -93,11 +95,11 @@ const PartnersSection = () => {
                                     width={100}
                                     height={80}
                                 />
-                            </div> */}
-                        {/* ))}
-                    </div> */}
-                {/* </div> */}
-            {/* </div> */}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div> */}
 
         </section>
     );

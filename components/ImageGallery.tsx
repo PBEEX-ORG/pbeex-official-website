@@ -22,9 +22,45 @@ const Slideshow = () => {
     <section className="relative w-full py-12 px-6 overflow-hidden bg-gray-100">
       {/* Animated Image Carousel */}
       <motion.div
-        className="flex items-center"
+        className="flex items-center mb-5"
         animate={{
           x: ["0%", "-100%"], // Scrolls images leftward continuously
+        }}
+        transition={{
+          duration: 20, // Adjust speed for smoother motion
+          ease: "linear",
+          repeat: Infinity,
+        }}
+      >
+        {/* Duplicate images to create a seamless loop */}
+        {[...images, ...images].map((image, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 px-2"
+            style={{
+              flex: "0 0 auto", // Prevent images from shrinking
+              width: "100%", // Full width for smaller screens
+              maxWidth: "400px", // Limit size for larger screens
+            }}
+          >
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              width={400}
+              height={300}
+              layout="responsive" // Responsive scaling
+              objectFit="cover"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        ))}
+      </motion.div>
+
+
+      <motion.div
+        className="flex items-center"
+        animate={{
+          x: ["-100%", "0%"], // Scrolls images rightward continuously
         }}
         transition={{
           duration: 20, // Adjust speed for smoother motion

@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
                 When is PBEEX 2024?
                 </h2>
                 <p className="text-sm">
-                PBEEX is happening on the <br /> 11th January, 2024.
+                The date is coming soon - <br /> Stay tuned for the big reveal!.
                 </p>
             </div>
             <Image
